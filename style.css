@@ -7,43 +7,29 @@ body {
   background-color: antiquewhite;
 }
 
-.article-inicial {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  position: relative;
-  padding: 50px;
-  background-color: brown;
-  top: 100px;
-  width: 100%;
-}
-
-.artigos {
-  display: flex;
-  margin: 10px;
-}
-
-.title {
-  text-align: center;
-  padding: 10px;
-}
-
 .cabecalho {
   position:fixed;
-  padding: 20px;
+  text-align: center;
   z-index: 1;
-  background-color: gray;
+  padding: 20px;
   width: 100%;
+  background-color: cadetblue;
+}
+
+.navegacao {
+  display: flex;
 }
 
 .link-cabecalho {
   display: flex;
-  flex-direction: ;
   justify-content: space-around;
-  padding: 20px;
+  padding: 10px;
+  width: 100%;
+  margin-top: 70px;
+  background-color: chocolate;
 }
 
-li {
+.tag-li {
   list-style: none;
 }
 
@@ -52,84 +38,115 @@ li {
   text-decoration: none;
 }
 
-.lado-esquerdo {
-  position: absolute;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 20%;
-  top: 500px;
-  margin: 30px;
+.article-inicial {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: aliceblue;
 }
 
-.lado-esquerdo:hover {
+.artigos {
+  display: flex;
+  margin: 20px;
+}
+
+.artigos-p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin: 20px;
+}
+
+.imagens-cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.lado-esquerdo-1 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  top: 500px;
+}
+
+.lado-esquerdo-1:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.container {
-  max-width: 100%;
-}
-
-.lado-direito {
-  position: absolute;
+.lado-direito-1 {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 30%;
   top: 500px;
-  left: 30%;
-  margin: 30px;
-
 }
 
-.lado-direito:hover {
+.lado-direito-1:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.container-dois {
-  padding: 2px 16px;
-}
-
-.card-um {
-  position: absolute;
+.lado-esquerdo-2 {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 30%;
   top: 1000px;
-  margin: 30px;
 }
 
-.card-um:hover {
+.lado-esquerdo-2:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+.lado-direito-2 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  top: 1000px;
+}
+
+
+.lado-direito-2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.lado-esquerdo-3 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  top: 1500px;
+}
+
+.lado-esquerdo-3:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.lado-direito-3 {
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  top: 1500px;
+}
+
+.lado-direito-3:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+ /* .container-dois {
+  padding: 2px 16px;
+} */
+/*
 .container-tres {
   padding: 2px 16px;
 }
 
-.card-dois {
-  position: absolute;
+.card-autor {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 20%;
-  top: 1000px;
-  left: 30%;
-  margin: 30px;
-}
-
-.card-dois:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  width: 80px;
+  margin: 10px;
+  padding: 10px;
 }
 
 .container-quatro {
   padding: 2px 16px;
-}
-
-.card-tres {
-  position: absolute;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 20%;
-  top: 1500px;
-  margin: 30px;
 }
 
 .card-um:hover {
@@ -138,16 +155,6 @@ li {
 
 .container-cinco {
   padding: 2px 16px;
-}
-
-.card-quatro {
-  position: absolute;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 20%;
-  top: 1500px;
-  left: 30%;
-  margin: 30px;
 }
 
 .card-dois:hover {
@@ -171,17 +178,6 @@ li {
   padding: 20px;
 }
 
-.card-autor {
-  position: absolute;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 20%;
-  top: 500px;
-  margin: 30px;
-  padding: 20px;
-  left: 70%;
-}
-
 .rodape {
   position: absolute;
   top: 2000px;
@@ -198,10 +194,10 @@ table, th, td {
 
 th {
   background-color: grey;
-}
+} */
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .container {
     background-color: blue;
   }
-}
+} */
