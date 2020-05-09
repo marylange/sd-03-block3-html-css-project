@@ -48,21 +48,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
-}
-
-.sessao-artigo-2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.sessao-artigo-3 {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .artigos {
@@ -77,24 +62,16 @@ body {
   margin: 20px;
 }
 
+.autor-desenhista {
+}
+
 .card-autor-desenhista {
-  width: 500px;
+  width: 300px;
   margin: 10px;
   padding: 10px;
 }
 
 .video {
-  padding: 20px;
-  width: 560px;
-  height: 315px;
-}
-
-.quadrinhos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
-  padding: 20px;
 
 }
 
