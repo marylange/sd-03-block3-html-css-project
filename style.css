@@ -56,6 +56,19 @@ body {
   margin: 20px;
 }
 
+.autor {
+  display: flex;
+  justify-content: center;
+}
+
+.card-autor {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 500px;
+  margin: 10px;
+  padding: 10px;
+}
+
 .imagens-cards {
   display: flex;
   justify-content: space-around;
@@ -129,72 +142,94 @@ body {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
- /* .container-dois {
-  padding: 2px 16px;
-} */
-/*
-.container-tres {
-  padding: 2px 16px;
-}
-
-.card-autor {
+.lado-esquerdo-4 {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 80px;
-  margin: 10px;
-  padding: 10px;
+  width: 30%;
+  top: 2500px;
 }
 
-.container-quatro {
-  padding: 2px 16px;
-}
-
-.card-um:hover {
+.lado-esquerdo-4:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.container-cinco {
-  padding: 2px 16px;
+.lado-direito-4 {
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  top: 2500px;
 }
 
-.card-dois:hover {
+.lado-direito-4:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.container-seis {
-  padding: 2px 16px;
+.meio-pagina {
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  top: 2500px;
+}
+
+.meio-pagina:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .campo-aside {
-  position: absolute;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 40%;
-  height: 120%;
-  top: 1100px;
-  left: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: yellow;
-  margin: 0px;
-  padding: 20px;
+
 }
 
-.rodape {
+.titulo-aside-ingles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: yellow;
+  width: 100%;
+}
+
+.link-aside {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  width: 100%;
+  margin: 10px;
+}
+
+.tag-li-2 {
+  list-style: none;
+  margin: 10px;
+}
+
+/*.rodape {
   position: absolute;
   top: 2000px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 100%;
   background-color: aqua;
+}*/
+.titulo-tabela {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-table, th, td {
-  border: 1px solid black;
-  margin: 40px;
+.tabela-aside {
+
+  margin: 10px;
 }
 
-th {
-  background-color: grey;
-} */
+.th {
+  border: 1px solid black
+}
+
+.td {
+  border: 1px solid black
+}
 
 /* @media screen and (max-width: 600px) {
   .container {
