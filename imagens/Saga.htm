@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<!-- saved from url=(0038)http://127.0.0.1:5500/index.html#h5o-7 -->
-<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  
-  <title>Saga</title>
-<link rel="stylesheet" type="text/css" href="./Saga_files/style.css"></head>
-<body cz-shortcut-listen="true">
+  <html lang="pt-br">
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Saga</title>
+      <link rel="stylesheet" type="text/css" href="./Saga_files/style.css">
+    </head>
+  <body cz-shortcut-listen="true">
   <section class="cabecalho">
     <h1 class="title">Saga</h1>
   </section>
@@ -21,19 +21,19 @@
   </nav>
 
   <article class="article-inicial">
-    <section class="sessao-artigo-1">
+    <section class="sessao-artigo">
       <h3 class="artigos">Teste1</h3>
-      <p class="artigos-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lectus nulla, molestie id lacus fringilla, fermentum hendrerit mauris. Aenean rhoncus vulputate quam, id tristique nisi vulputate vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lectus nulla, molestie id lacus fringilla, fermentum hendrerit mauris. Aenean rhoncus vulputate quam, id tristique nisi vulputate vel. </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lectus nulla, molestie id lacus fringilla, fermentum hendrerit mauris. Aenean rhoncus vulputate quam, id tristique nisi vulputate vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lectus nulla, molestie id lacus fringilla, fermentum hendrerit mauris. Aenean rhoncus vulputate quam, id tristique nisi vulputate vel. </p>
       <div class="card-autor-desenhista">
         <img src="./Saga_files/1024px-10.12.12BrianKVaughanFionaStaplesByLuigiNovi1.jpg" alt="foto do autor ao lado da desenhista de Saga" width="100%">
       </div>
     </section>
-    <section class="sessao-artigo-2">
+    <section class="sessao-artigo">
       <h3 class="artigos">Teste2</h3>
-      <p class="artigos-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lectus nulla, molestie id lacus fringilla, fermentum hendrerit mauris. Aenean rhoncus vulputate quam, id tristique nisi vulputate vel. </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lectus nulla, molestie id lacus fringilla, fermentum hendrerit mauris. Aenean rhoncus vulputate quam, id tristique nisi vulputate vel. </p>
       <p class="titulo-tabela">Saga - Origem do Quadrinho</p>
       <table class="tabela">
-        <tbody><tr>
+          <tr>
           <th class="th">País de origem	</th>
           <th class="th">Língua de origem	</th>
           <th class="th">Editora(s)	</th>
@@ -55,7 +55,7 @@
           <td class="td">Fiona Staples</td>
           <td class="td">Alana e Marko</td>
         </tr>
-      </tbody></table>
+    </table>
     </section>
     <section class="sessao-artigo-3">
       <h3 class="artigos">Teste3</h3>
@@ -64,8 +64,6 @@
       <iframe class="video" width="560" height="315" src="./Saga_files/7nnmQoYxESE.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
     </section>
   </article>
-
-  <div>
     <section class="imagens-cards">
       <figure class="lado-esquerdo-1">
         <a href="http://127.0.0.1:5500/index.html#"><img src="./Saga_files/saga1.jpg" alt="avatar" width="100%"></a>
@@ -135,56 +133,3 @@
       <p>Conteúdo compilado por: Marylange Leal com inspiração no quadrinho Saga</p>
     </footer>
 </section>
-<!-- Code injected by live-server -->
-<script type="text/javascript">
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
-
-<style>.rHUuQMDnDO1TJURb { color:#2e66ff !important; } 
-.rHUuQMDnDO1TJURb.ba-outline { outline-color:#2e66ff } 
-.rHUuQMDnDO1TJURb.ItXEsGzrM2W:hover, .rHUuQMDnDO1TJURb.ItXEsGzrM2W.active { color:#295cdb !important; }
-.ahlZxC8Fv9PvYHfMgEU { background-color:#2e66ff !important; }
-.ahlZxC8Fv9PvYHfMgEU.ItXEsGzrM2W:hover, .ahlZxC8Fv9PvYHfMgEU.ItXEsGzrM2W.active { background:#295cdb !important; }
-.ba-border-primary { border-color:#295cdb !important }
-.S1B2q3gOToH9j { background:#eb8f1e !important; color:white !important; }
-.S1B2q3gOToH9j.ItXEsGzrM2W:hover, .S1B2q3gOToH9j.ItXEsGzrM2W.active { background:#ff9b21 !important; }
-.ba-color-secondary { color:#eb8f1e !important;  }
-.ba-color-secondary.ItXEsGzrM2W:hover, .ba-color-secondary.ItXEsGzrM2W.active { color:#ff9b21 !important; }
-.ba-color-tertiary { color:#eb8f1e !important }
-.ba-color-tertiary.ItXEsGzrM2W:hover, .ba-color-tertiary.ItXEsGzrM2W.active { color:#ff9b21 !important }
-.PmDZQ4QVmwln { background:#eb8f1e !important }
-.ba-bg-tertiary.ItXEsGzrM2W:hover, .ba-bg-tertiary.ItXEsGzrM2W.active { background:#ff9b21 !important }</style></body><evlist></evlist></html>

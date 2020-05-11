@@ -16,7 +16,7 @@
   width: 100%;
   justify-content: center;
   z-index: 1;
-  padding: 20px;
+  padding: 10px;
   background-color: cadetblue;
 }
 
@@ -67,13 +67,52 @@
   padding: 20px;
 }
 
-
-
-/*.video {
+.titulo-tabela {
   padding: 20px;
-  width: 560px;
-  height: 315px;
-} */
+  width: 100%;
+  height: auto;
+}
+
+.tabela {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.th {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+  background-color: coral;
+}
+
+.td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.tr:hover {
+  background-color:#f5f5f5;
+}
+
+/*-----------------------------*/
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.container-video {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
 
 /* .quadrinhos {
   display: flex;
