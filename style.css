@@ -3,93 +3,79 @@
   padding: 0;
 }
 
-body {
-  background-color: antiquewhite;
+.centro {
+  background-color: violet;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
-.cabecalho {
+ .cabecalho {
   position:fixed;
-  text-align: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
   z-index: 1;
   padding: 20px;
-  width: 100%;
   background-color: cadetblue;
 }
 
 .navegacao {
-  display: flex;
+  display: block;
+  width: 100%;
+  background-color: cadetblue;
+
 }
 
-.link-cabecalho {
+.teste {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
-  padding: 10px;
   width: 100%;
-  margin-top: 70px;
-  background-color: chocolate;
+  margin-top: 80px;
+  border: 2px solid greenyellow;
 }
 
 .tag-li {
   list-style: none;
 }
 
-.tagA {
-  color: black;
+.tag-li a {
   text-decoration: none;
+  color: black;
 }
-
+/*---------------------------------*/
 .article-inicial {
-  display: flex;
+  display: block;
   flex-wrap: wrap;
-  background-color: aliceblue;
-}
-
-.sessao-artigo-1 {
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
+  background-color: blueviolet;
+  border: 2px solid red;
 }
-
-.sessao-artigo-2 {
-  display: flex;
+/*-----------------------------------*/
+.sessao-artigo {
+  margin-top: 20px;
+  display: block;
   flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.sessao-artigo-3 {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.artigos {
-  display: flex;
-  margin: 20px;
-}
-
-.artigos-p {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: start;
+  text-align: center;
+  background-color: chartreuse;
   margin: 20px;
 }
 
 .card-autor-desenhista {
+  display: block;
   width: 500px;
-  margin: 10px;
   padding: 10px;
+  justify-content: center;
 }
 
-.video {
+/*.video {
   padding: 20px;
   width: 560px;
   height: 315px;
-}
+} */
 
-.quadrinhos {
+/* .quadrinhos {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -276,11 +262,40 @@ body {
 
   flex-direction: column;
   align-items: center;
-  background-color: aqua;
-}
-
-/* @media screen and (max-width: 600px) {
-  .container {
-    background-color: blue;
-  }
+  background-color: gray;
 } */
+
+ @media screen and (min-width:320px) and (max-width: 568px) {
+  .centro {
+    background-color: yellow;
+    border: 5px solid;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .cabecalho {
+    background-color: lightcoral;
+  }
+
+  /* .coluna {
+    width: 100%;
+  } */
+  /* .cabecalho {
+    position:fixed;
+    display: flex;
+    z-index: 1;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    background-color: gray;
+  }
+
+  .link-cabecalho {
+    display: flex;
+    width: 100%;
+    margin-top: 65px;
+    background-color: yellowgreen;
+
+  } */
+}
